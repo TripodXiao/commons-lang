@@ -20,6 +20,7 @@
  */
 pipeline {
 
+    agent {}
     tools {
         maven 'MAVEN_3.6.3'
         jdk 'JDK_11.0.10'
